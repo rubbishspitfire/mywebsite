@@ -1,33 +1,91 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta name="viewport" content="width=device-width">
-    <meta name="description" content="Affordable and professional website">
-    <meta name="keywords" content="remote software engineer, software developer, jr. software developer, application development">
-    <meta name="author" content="Patience Condell">
-    <title>Welcome To My Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
-    <header>
-      <div class="container">
-        <div id="branding">
-          <h1><span class="highlight">Patience</span> Condell</h1>
-        </div>
-        <nav>
-          <ul>
-            <li class="current"><a href="index.html">Home</a></li>
-            <li><a href="./html/about.html">About</a></li>
-            <li><a href="./html/contact.html">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+    <nav>
+      <h2 id="logo">Patience Condell</h2>
+      <ul class="navigation-items">
+        <li class="navigation-item"><a href="#about-me">About Me</a></li>
+        <li class="navigation-item"><a href="#projects">Projects</a></li>
+        <li class="navigation-item"><a href="#skills">Skills</a></li>
+        <li class="navigation-item"><a href="#/contact.html">Contact</a></li>
+      </ul>
+    <nav>
 
-    <section id="showcase">
-      <div class="container">
-        <h1>Remote Software Engineer</h1>
-        <p>If at first, you don't succeed. Try, try again!</p>
+    <main>
+        <section id="about-me">
+          <div class="about-me-container">
+            <div class="about-me-text-container">
+              <h2>About Me</h2>
+              <p>
+                I am a Software Engineer who has a passion for software development and integration. 
+                Trained in the MERN stack (Mongo, Express, React & Node). 
+                I have experience with creating front end designs using Bootstrap, Materialize, SCSS, 
+                JQuery, and HTML, CSS, and JavaScript. 
+              </p>
+              <p>
+                My background is in mainly in criminal justice. Currently, I am a graduate student at 
+                Kennesaw State University, where I major in Cybersecurity.
+              </p>
+              <p>
+                In my freetime, I like to play video games, watch anime, read various books 
+                and listen to music. My dream would be to collaborate to great software 
+                with great people.
+              </p>
+            </div>
+            <img src="https://media.licdn.com/media/AAYQAQSOAAgAAQAAAAAAAB-zrMZEDXI2T62PSuT6kpB6qg.png"
+            alt="A photo of Patience Condell"
+            class="portrait"
+          />  
+      </div>
+      </section>
+
+      <section id="projects">
+        <h2>Projects</h2>
+        <details class="project">
+          <summary class="project-title">
+            <h3>My first website I've completed through bootcamp</h3>
+          </summary>
+          <img src="https://github.com/rubbishspitfire/trivia-game/blob/master/assets/images/triviagame.png"
+          alt="Simple speed word trivia typing game"
+          class="project-image"
+          />
+          <p class="project-description">
+            Made this program while attending bootcamp.
+          </p>
+        </details>
+        <details class="project">
+          <summary class="project-title">
+            <h3>Tic-Tac-Toe-Game</h3>
+          </summary>
+          <img src="https://user-images.githubusercontent.com/54087235/209450876-666bcd13-e2a6-42b4-9468-5f60092ee0c3.png"
+          alt="Just a tic tac toe game to pass boredom"
+          class="project-image"
+          />
+          <p class="project-description">
+            Made a game that will play at three levels of difficulty.  
+        </p>
+        </details>
+        <details class="project">
+          <summary class="project-title">
+            <h3>Friend Finder Applciation</h3>
+          </summary>
+          <img src=""
+          alt=""
+          class=""
+          />
+          <p class="project-description">
+            This application is used to find your friend using NodeJS and Express framework.
+            The app also asks the user to fill out a survey. After filling out a quick survey, 
+            our friend-matching algorithm will pair you with an individual in our network.
+          </p>
+        </details>
+      </section>
       </div>
     </section>
     
@@ -137,4 +195,4 @@
       <p>Copyright &copy; 2022. All Rights Reserved</p>
     </footer>
   </body>
-</html>
+  </html>
